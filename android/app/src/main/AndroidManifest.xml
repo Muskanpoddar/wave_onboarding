@@ -2,6 +2,8 @@
     <application
         android:label="wave_onboarding"
         android:name="${applicationName}"
+        android:usesCleartextTraffic="true"
+        android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

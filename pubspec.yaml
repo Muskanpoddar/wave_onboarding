@@ -1,6 +1,6 @@
 name: wave_onboarding
-description: "A new Flutter project."
-publish_to: 'none'
+description: "An immersive 3D onboarding experience with advanced wave animations and seamless page transitions."
+publish_to: "none"
 version: 0.1.0
 
 environment:
@@ -9,6 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  cupertino_icons: ^1.0.8
+  model_viewer_plus: ^1.10.0
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +19,7 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/page1.glb
+    - assets/page2.glb
+   
